@@ -5,10 +5,11 @@ import Sidebar from './Sidebar';
 
 function App() {
 	return (
-		<div className="App">
-			<h1>lets build a whatsapp clone</h1>
-			<Sidebar />
-			<Chat />
+		<div className="app">
+			<div className="app__body">
+				<Sidebar />
+				<Chat />
+			</div>
 		</div>
 	);
 }
